@@ -123,9 +123,30 @@ Saved visualizations in /outputs/ as .jpg images.<br>
 ![](outputs/gradcam_output_24.jpg) <br>
 
 <h1>📈 Results</h1>
-| Model |	Accuracy | Params |	Suitable For Grad-CAM |<br>
-| ResNet50 | 100.0 | 🔺 ~24M |	✅ Yes |<br>
-| EfficientNetB0 | 99.74 | 🔻 ~7M | ✅ Yes (lightweight) |<br>
+<table border="1" cellpadding="5">
+<thead>
+<tr>
+<th>Model</th>
+<th>Accuracy</th>
+<th>Parameters</th>
+<th>Grad-CAM Compatible</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ResNet50</td>
+<td>100.0%</td>
+<td>~24 Million 🔺</td>
+<td>✅ Yes (Lightweight)</td>
+</tr>
+<tr>
+<td>EfficientNetB0</td>
+<td>99.7%</td>
+<td>~7 Million 🔻</td>
+<td>✅ Yes (Lightweight & Attention-Enhanced)</td>
+</tr>
+</tbody>
+</table>
 
 <h1>🤝 Acknowledgements</h1>
 Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
