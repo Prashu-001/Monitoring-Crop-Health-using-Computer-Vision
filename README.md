@@ -156,13 +156,13 @@ Output images show both original and heatmap overlays.<br>
 <td>ResNet50</td>
 <td>100.0%</td>
 <td>~24 Million 🔺</td>
-<td>✅ Yes (Lightweight)</td>
+<td>✅ Yes</td>
 </tr>
 <tr>
 <td>EfficientNetB0</td>
 <td>99.7%</td>
 <td>~7 Million 🔻</td>
-<td>✅ Yes (Lightweight & Attention-Enhanced)</td>
+<td>✅ Yes (Lightweight)</td>
 </tr>
 </tbody>
 </table>
