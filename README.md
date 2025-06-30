@@ -1,16 +1,16 @@
 <h1>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</h1><br>
-<b>📌 Project Objective</b><br>:
-This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.
+<b>📌 Project Objective</b>:<br>
+                            This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.
 
 <b>🧠 Models Used</b><br>
-<b>✅ ResNet50 </b>– Deep residual CNN for classification
+<b>✅ ResNet50 </b>– Deep residual CNN for classification<br>
 
-<b>✅ EfficientNetB0</b> – Lightweight model optimized for performance
+<b>✅ EfficientNetB0</b> – Lightweight model optimized for performance<br>
 
-<b>✅ Grad-CAM</b> – Used to visualize important regions contributing to the model's decision
+<b>✅ Grad-CAM</b> – Used to visualize important regions contributing to the model's decision<br>
 
 <b>🗃️ Project Structure</b><br>
-'''Monitoring-Crop-Health-using-Computer-Vision/
+```Monitoring-Crop-Health-using-Computer-Vision/
 ├── data/               # Sample input images
 ├── models/             # Saved model files (.h5 or .keras)
 ├── notebooks/          # Training and inference notebooks
@@ -23,78 +23,67 @@ This project simulates aerial crop health monitoring using deep learning and com
 │   └── inference.py
 ├── outputs/            # Grad-CAM outputs and overlayed images
 ├── requirements.txt    # All dependencies
-└── README.md'''
-<b>📦 Requirements</b>
-Python ≥ 3.8
+└── README.md```
+<b>📦 Requirements</b><br>
+Python ≥ 3.8<br>
 
-TensorFlow ≥ 2.8
+TensorFlow ≥ 2.8<br>
 
-OpenCV
+OpenCV<br>
 
-NumPy
+NumPy<br>
 
-Matplotlib
+Matplotlib<br>
 
-scikit-learn
+scikit-learn<br>
 
 Install with:<br>
-pip install -r requirements.txt
-<b>📁 Dataset</b>
-Used an augmented plant disease dataset from Kaggle.
+pip install -r requirements.txt<br>
+<b>📁 Dataset</b><br>
+Used an augmented plant disease dataset from Kaggle.<br>
 
-Images categorized as healthy or unhealthy.
+Images categorized as healthy or unhealthy.<br>
 
-Dataset was resized, normalized, and split into train/test sets.
+Dataset was resized, normalized, and split into train/test sets.<br>
 
 <b>🛠️ Model Training</b><br>
-Models were built using the Keras API in TensorFlow.
+Models were built using the Keras API in TensorFlow.<br>
 
-Both ResNet50 and EfficientNetB0 were trained on the dataset.
+Both ResNet50 and EfficientNetB0 were trained on the dataset.<br>
 
-Training metrics (accuracy & loss) were tracked using matplotlib.
+Training metrics (accuracy & loss) were tracked using matplotlib.<br>
 
 <b>📄 Output:</b><br>
 
-Trained model saved as .h5 format under /models/.
+Trained model saved as .h5 format under /models/.<br>
 
 <b>🎯 Inference & Visualization</b><br>
-The trained model was used to predict crop health from test images.
+The trained model was used to predict crop health from test images.<br>
 
-Grad-CAM was used to highlight diseased regions:
+Grad-CAM was used to highlight diseased regions:<br>
 
-Red overlays show unhealthy vegetation.
+Red overlays show unhealthy vegetation.<br>
 
-Output images show both original and heatmap overlays.
+Output images show both original and heatmap overlays.<br>
 
-<b>📂 Output:</b>
+<b>📂 Output:</b><br>
 
-Saved visualizations in /outputs/ as .jpg images.
+Saved visualizations in /outputs/ as .jpg images.<br>
 
-Optionally, calculated the % area affected by disease per image.
+Optionally, calculated the % area affected by disease per image.<br>
 
 <b>📸 Sample Output</b><br>
-Original	Grad-CAM Heatmap	Overlay
+|Original|	Grad-CAM Heatmap|	Overlay|<br>
 
 <b>📈 Results</b><br>
-Model	Accuracy	Params	Suitable For Grad-CAM
-ResNet50	✅ High	🔺 ~25M	✅ Yes
-EfficientNetB0	✅ Good	🔻 ~5M	✅ Yes (lightweight)
+|Model|	Accuracy|	Params|	Suitable For Grad-CAM<br>|
+|ResNet50|	✅ High|	🔺 ~25M|	✅ Yes|
+|EfficientNetB0|	✅ Good|	🔻 ~5M|	✅ Yes (lightweight)|
 
-🚀 Run the Project
-Train the model:
-bash
-Copy
-Edit
-python src/train.py --model resnet50 --epochs 20
-Inference & Grad-CAM visualization:
-bash
-Copy
-Edit
-python src/inference.py --model models/resnet50.h5 --input data/test/
-🤝 Acknowledgements
-Dataset: Kaggle – New Plant Diseases Dataset (Augmented)
+<b>🤝 Acknowledgements</b><br>
+Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
 
-TensorFlow, OpenCV, and Keras Teams
+TensorFlow, OpenCV, and Keras Teams<br>
 
-📬 Contact
+<b>📬 Contact</b><br>
 For questions or collaborations, contact [your email or GitHub profile].
