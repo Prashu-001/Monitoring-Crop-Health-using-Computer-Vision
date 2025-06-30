@@ -116,14 +116,6 @@ Replace efficientnetb0 with resnet50 to train with ResNet-50 instead:
 ```
 python train.py --model resnet50 --epochs 10 --save_dir models
 ```
-<h1>📁 Dataset</h1>
-Used an augmented plant disease dataset with 87k images from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
-(Dataset is already splited into train,validation and test)<br>
-
-Images categorized as healthy or unhealthy(38 classes).<br>
-
-Dataset was resized(224,224), normalized.<br>
-
 <h1>🛠️ Model Training</h1>
 Models were built using the Keras API in TensorFlow.<br>
 
