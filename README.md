@@ -1,4 +1,4 @@
-🌾 Monitoring Crop Health using Deep Learning and Grad-CAM
+</b>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</b><br>
 📌 Project Objective
 This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.
 
