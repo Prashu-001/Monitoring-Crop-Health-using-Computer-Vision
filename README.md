@@ -87,7 +87,7 @@ scikit-learn<br>
 pip install -r requirements.txt<br>
 ```
 
-<h1>Uses:</h1>
+<h1>Usage:</h1>
 <h2>📂 Dataset Setup</h2>
 This project uses the New Plant Diseases Dataset (Augmented)  with 87k images (https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)  from Kaggle.
 <br>
@@ -104,7 +104,18 @@ project-root/
 ```
 
 The training and validation images should be placed under data/train/ and data/valid/ respectively.
+<br><br>
+To train the model, run the following command from your terminal:
 
+```
+python train.py --model efficientnetb0 --epochs 10 --save_dir models
+```
+
+Replace efficientnetb0 with resnet50 to train with ResNet-50 instead:
+
+```
+python train.py --model resnet50 --epochs 10 --save_dir models
+```
 <h1>📁 Dataset</h1>
 Used an augmented plant disease dataset with 87k images from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
 (Dataset is already splited into train,validation and test)<br>
