@@ -7,14 +7,14 @@
 ResNet-50 consists of 50 layers that are divided into 5 blocks, each containing a set of residual blocks. The residual blocks allow for the preservation of information from earlier layers, which helps the network to learn better representations of the input data.
 <br>
 The following are the main components of ResNET.
-<br>
+<br><br>
 <b>1. Convolutional Layers</b><br>
 The first layer of the network is a convolutional layer that performs convolution on the input image. This is followed by a max-pooling layer that downsamples the output of the convolutional layer. The output of the max-pooling layer is then passed through a series of residual blocks.
 <br><br>
-<b>2. Residual Blocks</b>b><br>
+<b>2. Residual Blocks</b><br>
 Each residual block consists of two convolutional layers, each followed by a batch normalization layer and a rectified linear unit (ReLU) activation function. The output of the second convolutional layer is then added to the input of the residual block, which is then passed through another ReLU activation function. The output of the residual block is then passed on to the next block.
 <br><br>
-<b>3. Fully Connected Layer</b>b><br>
+<b>3. Fully Connected Layer</b><br>
 The final layer of the network is a fully connected layer that takes the output of the last residual block and maps it to the output classes. The number of neurons in the fully connected layer is equal to the number of output classes.
 <br><br>
 <h3>✅ EfficientNetB0</h3>
@@ -24,20 +24,20 @@ EfficientNetB0 is the baseline model of the EfficientNet family, developed by Go
 MBConv Block (Mobile Inverted Bottleneck):<br>
 Combines several modern techniques for efficient convolution.
 <br>
-<b>1. Expansion Layer:</b>b><br>
+<b>1. Expansion Layer:</b><br>
 Uses a 1x1 convolution to expand input channels, enabling richer feature learning.
 <br>
-<b>2. Depthwise Convolution (3x3):<b><br>
+<b>2. Depthwise Convolution (3x3):</b><br>
 Applies one filter per input channel to extract spatial patterns efficiently.
 <br>
-<b>3. Squeeze-and-Excitation:</b>b><br>
+<b>3. Squeeze-and-Excitation:</b><br>
 Learns to recalibrate channel-wise responses:
 <br>
 Squeeze: Global average pooling.
 <br>
 Excitation: Learns weights to emphasize informative channels.
 <br>
-<b>4. Projection Layer:</b>b><br>
+<b>4. Projection Layer:</b><br>
 Uses a 1x1 convolution to reduce channel dimensions back to target size.<br><br>
 
 <h3>✅ Grad-CAM</h3>
