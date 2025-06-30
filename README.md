@@ -3,7 +3,7 @@
 <br>This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.<br>
 <br>
 <h1>🧠 Models Used</h1>
-<h3>✅ ResNet50 </h3>– Deep residual CNN for classification.<br>
+<h3>✅ ResNet50 </h3>
 ResNet-50 consists of 50 layers that are divided into 5 blocks, each containing a set of residual blocks. The residual blocks allow for the preservation of information from earlier layers, which helps the network to learn better representations of the input data.
 <br>
 The following are the main components of ResNET.
@@ -17,7 +17,7 @@ Each residual block consists of two convolutional layers, each followed by a bat
 <b>3. Fully Connected Layer<b><br>
 The final layer of the network is a fully connected layer that takes the output of the last residual block and maps it to the output classes. The number of neurons in the fully connected layer is equal to the number of output classes.
 <br><br>
-<h3>✅ EfficientNetB0</h3> – Lightweight model optimized for performance.<br><br>
+<h3>✅ EfficientNetB0</h3>
 EfficientNetB0 is the baseline model of the EfficientNet family, developed by Google. It balances model accuracy and efficiency using a novel technique called compound scaling, which scales depth, width, and resolution systematically.
 <br>
 🔧 Key Components:<br>
@@ -40,8 +40,8 @@ Excitation: Learns weights to emphasize informative channels.
 <b>4. Projection Layer:<b><br>
 Uses a 1x1 convolution to reduce channel dimensions back to target size.<br><br>
 
-<h3>✅ Grad-CAM</h3> – Used to visualize important regions contributing to the model's decision.<br><br>
-The gradient-weighted class activation map (Grad CAM) produces a heat map that highlights important regions of an image using the target gradients (dog, cat) of the final convolutional layer.
+<h3>✅ Grad-CAM</h3>
+The gradient-weighted class activation map (Grad CAM) produces a heat map that highlights important regions of an image using the target gradients (healthy,unhealthy(type of disease)) of the final convolutional layer.
 <br>
 The Grad CAM method is a popular visualisation technique that is useful for understanding how a convolutional neural network has been driven to make a classification decision. It is class-specific, meaning that it can produce a separate visualisation for each class present in the image.
 <br>
