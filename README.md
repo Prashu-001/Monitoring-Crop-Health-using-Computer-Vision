@@ -1,6 +1,6 @@
 <h1>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</h1><br>
 <b>📌 Project Objective</b>:<br>
-                            This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.
+<br>This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.<br>
 
 <b>🧠 Models Used</b><br>
 <b>✅ ResNet50 </b>– Deep residual CNN for classification<br>
@@ -10,7 +10,8 @@
 <b>✅ Grad-CAM</b> – Used to visualize important regions contributing to the model's decision<br>
 
 <b>🗃️ Project Structure</b><br>
-```Monitoring-Crop-Health-using-Computer-Vision/
+```
+Monitoring-Crop-Health-using-Computer-Vision/
 ├── data/               # Sample input images
 ├── models/             # Saved model files (.h5 or .keras)
 ├── notebooks/          # Training and inference notebooks
@@ -23,7 +24,8 @@
 │   └── inference.py
 ├── outputs/            # Grad-CAM outputs and overlayed images
 ├── requirements.txt    # All dependencies
-└── README.md```
+└── README.md
+```
 <b>📦 Requirements</b><br>
 Python ≥ 3.8<br>
 
