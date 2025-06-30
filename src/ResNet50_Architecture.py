@@ -73,6 +73,3 @@ def Build_ResNet50(input_shape=(224,224,3), num_classes=38):
     x = GlobalAveragePooling2D()(x)
     x = Dense(num_classes, activation='softmax')(x)
     return Model(inputs=input_,outputs=x)
-
-resnet50=Build_ResNet50()
-resnet50.summary()
