@@ -1,5 +1,5 @@
 <h1>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</h1><br>
-<h1>📌 Project Objective</h1>:
+<h1>📌 Project Objective:</h1>
 <br>This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.<br>
 <br>
 <h1>🧠 Models Used</h1>
@@ -47,7 +47,8 @@ The Grad CAM method is a popular visualisation technique that is useful for unde
 <br>
 In the event of a classification error, this method can be very useful for understanding where the problem lies in the convolutional network. It also makes the algorithm more transparent.
 <br><br>
-<h1>🗃️ Project Structure</h1><br>
+<h1>🗃️ Project Structure</h1>
+
 ```
 Monitoring-Crop-Health-using-Computer-Vision/
 ├── data/               # Sample input images
@@ -80,7 +81,7 @@ Matplotlib<br>
 
 scikit-learn<br>
 
-<h1>Install with</h1>:<br>
+<h1>Install with</h1>:
 ```
 pip install -r requirements.txt<br>
 ```
@@ -99,11 +100,10 @@ Both ResNet50 and EfficientNetB0 were trained on the dataset.<br>
 
 Training metrics (accuracy & loss) were tracked using matplotlib.<br>
 
-<h1>📄 Output:</h1><br>
-
+<h1>📄 Output:</h1>
 Trained model saved as .h5 format under /models/.<br>
 
-<h1>🎯 Inference & Visualization</h1><br>
+<h1>🎯 Inference & Visualization</h1>
 The trained model was used to predict crop health from test images.<br>
 
 Grad-CAM was used to highlight diseased regions:<br>
@@ -112,7 +112,7 @@ Red overlays show unhealthy vegetation.<br>
 
 Output images show both original and heatmap overlays.<br>
 
-<h1>📂 Output:</h1><br>
+<h1>📂 Output:</h1>
 
 Saved visualizations in /outputs/ as .jpg images.<br>
 <br>
@@ -121,15 +121,15 @@ Saved visualizations in /outputs/ as .jpg images.<br>
 ![](outputs/gradcam_output_19.jpg) <br>
 ![](outputs/gradcam_output_24.jpg) <br>
 
-<h1>📈 Results</h1><br>
+<h1>📈 Results</h1>
 |Model|	Accuracy|	Params|	Suitable For Grad-CAM<br>|<br>
 |ResNet50|	1.0 |	🔺 ~24M|	✅ Yes|<br>
 |EfficientNetB0|	99.74 |	🔻 ~7M|	✅ Yes (lightweight)|<br>
 
-<h1>🤝 Acknowledgements</h1><br>
+<h1>🤝 Acknowledgements</h1>
 Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
 
 TensorFlow, OpenCV, and Keras Teams<br>
 
-<h1>📬 Contact</h1><br>
+<h1>📬 Contact</h1>
 For questions or collaborations, contact [your email or GitHub profile].
