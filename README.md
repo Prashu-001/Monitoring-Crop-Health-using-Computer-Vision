@@ -75,7 +75,9 @@ Saved visualizations in /outputs/ as .jpg images.<br>
 Optionally, calculated the % area affected by disease per image.<br>
 
 <b>📸 Sample Output</b><br>
-|Original|	Grad-CAM Heatmap|	Overlay|<br>
+![](outputs/gradcam_output_4.jpg) <br>
+![](outputs/gradcam_output_19.jpg) <br>
+![](outputs/gradcam_output_4.jpg) <br>
 
 <b>📈 Results</b><br>
 |Model|	Accuracy|	Params|	Suitable For Grad-CAM<br>|
