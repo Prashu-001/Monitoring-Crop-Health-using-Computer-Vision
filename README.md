@@ -88,7 +88,7 @@ pip install -r requirements.txt<br>
 ```
 
 <h1>Usage:</h1>
-<h2>📂 Dataset Setup</h2>
+<b>📂 Dataset Setup</b><br>
 This project uses the New Plant Diseases Dataset (Augmented)  with 87k images (https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)  from Kaggle.
 <br>
 <b>Steps to Use:</b><br>
