@@ -87,6 +87,23 @@ scikit-learn<br>
 pip install -r requirements.txt<br>
 ```
 
+<h1>Uses:</h1>
+📂 Dataset Setup
+This project uses the New Plant Diseases Dataset (Augmented) (https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)  from Kaggle.
+<br>
+Steps to Use:<br>
+Download the dataset manually from the link above.
+<br>
+Extract it in the following directory structure:
+```
+project-root/
+├── data/
+│   ├── train/
+│   └── valid/
+```
+
+The training and validation images should be placed under data/train/ and data/valid/ respectively.
+
 <h1>📁 Dataset</h1>
 Used an augmented plant disease dataset with 87k images from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
 (Dataset is already splited into train,validation and test)<br>
