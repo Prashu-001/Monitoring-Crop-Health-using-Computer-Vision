@@ -81,10 +81,12 @@ Matplotlib<br>
 
 scikit-learn<br>
 
-<h1>Install with</h1>:
+<h1>Install with:</h1>
+
 ```
 pip install -r requirements.txt<br>
 ```
+
 <h1>📁 Dataset</h1>
 Used an augmented plant disease dataset with 87k images from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
 (Dataset is already splited into train,validation and test)<br>
@@ -112,10 +114,6 @@ Red overlays show unhealthy vegetation.<br>
 
 Output images show both original and heatmap overlays.<br>
 
-<h1>📂 Output:</h1>
-
-Saved visualizations in /outputs/ as .jpg images.<br>
-<br>
 <h1>📸 Sample Output</h1>
 
 ![](outputs/gradcam_output_4.jpg) <br>
@@ -154,4 +152,4 @@ Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
 TensorFlow, OpenCV, and Keras Teams<br>
 
 <h1>📬 Contact</h1>
-For questions or collaborations, contact [your email or GitHub profile].
+For questions or collaborations, contact prashu150603@gmail.com.
