@@ -1,15 +1,15 @@
 <h1>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</h1><br>
 <b>📌 Project Objective</b>:<br>
 <br>This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.<br>
-
-<b>🧠 Models Used</b><br>
+<br>
+##🧠 Models Used<br>
 <b>✅ ResNet50 </b>– Deep residual CNN for classification<br>
 
 <b>✅ EfficientNetB0</b> – Lightweight model optimized for performance<br>
 
 <b>✅ Grad-CAM</b> – Used to visualize important regions contributing to the model's decision<br>
 
-<b>🗃️ Project Structure</b><br>
+##<b>🗃️ Project Structure</b><br>
 ```
 Monitoring-Crop-Health-using-Computer-Vision/
 ├── data/               # Sample input images
@@ -26,7 +26,7 @@ Monitoring-Crop-Health-using-Computer-Vision/
 ├── requirements.txt    # All dependencies
 └── README.md
 ```
-<b>📦 Requirements</b><br>
+##<b>📦 Requirements</b><br>
 Python ≥ 3.8<br>
 
 TensorFlow ≥ 2.8<br>
@@ -55,7 +55,7 @@ Both ResNet50 and EfficientNetB0 were trained on the dataset.<br>
 
 Training metrics (accuracy & loss) were tracked using matplotlib.<br>
 
-<b>📄 Output:</b><br>
+##<b>📄 Output:</b><br>
 
 Trained model saved as .h5 format under /models/.<br>
 
@@ -68,16 +68,16 @@ Red overlays show unhealthy vegetation.<br>
 
 Output images show both original and heatmap overlays.<br>
 
-<b>📂 Output:</b><br>
+##<b>📂 Output:</b><br>
 
 Saved visualizations in /outputs/ as .jpg images.<br>
 
 Optionally, calculated the % area affected by disease per image.<br>
 
-<b>📸 Sample Output</b><br>
+##<b>📸 Sample Output</b><br><br>
 ![](outputs/gradcam_output_4.jpg) <br>
 ![](outputs/gradcam_output_19.jpg) <br>
-![](outputs/gradcam_output_4.jpg) <br>
+![](outputs/gradcam_output_24.jpg) <br>
 
 <b>📈 Results</b><br>
 |Model|	Accuracy|	Params|	Suitable For Grad-CAM<br>|
