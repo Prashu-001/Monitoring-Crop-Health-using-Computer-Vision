@@ -86,8 +86,8 @@ scikit-learn<br>
 pip install -r requirements.txt<br>
 ```
 <h1>📁 Dataset</h1>
-Used an augmented plant disease dataset from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
-(Datasetis already splited into train,validation and test datasets)<br>
+Used an augmented plant disease dataset with 87k images from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
+(Dataset is already splited into train,validation and test)<br>
 
 Images categorized as healthy or unhealthy(38 classes).<br>
 
@@ -116,15 +116,16 @@ Output images show both original and heatmap overlays.<br>
 
 Saved visualizations in /outputs/ as .jpg images.<br>
 <br>
-<b>📸 Sample Output</b><br><br>
+<h1>📸 Sample Output</h1>
+
 ![](outputs/gradcam_output_4.jpg) <br>
 ![](outputs/gradcam_output_19.jpg) <br>
 ![](outputs/gradcam_output_24.jpg) <br>
 
 <h1>📈 Results</h1>
-|Model|	Accuracy|	Params|	Suitable For Grad-CAM<br>|<br>
-|ResNet50|	1.0 |	🔺 ~24M|	✅ Yes|<br>
-|EfficientNetB0|	99.74 |	🔻 ~7M|	✅ Yes (lightweight)|<br>
+| Model |	Accuracy | Params |	Suitable For Grad-CAM |<br>
+| ResNet50 | 100.0 | 🔺 ~24M |	✅ Yes |<br>
+| EfficientNetB0 | 99.74 | 🔻 ~7M | ✅ Yes (lightweight) |<br>
 
 <h1>🤝 Acknowledgements</h1>
 Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
