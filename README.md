@@ -1,13 +1,13 @@
 <h1>🌾 Monitoring Crop Health using Deep Learning and Grad-CAM</h1><br>
-<b>📌 Project Objective</b>:<br>
+<h1>📌 Project Objective</h1>:
 <br>This project simulates aerial crop health monitoring using deep learning and computer vision. The aim is to classify each region of a crop image as either healthy or unhealthy and highlight the affected areas using Grad-CAM overlays.<br>
 <br>
-<h1>🧠 Models Used</h1><br><br>
-<b>✅ ResNet50 </b>– Deep residual CNN for classification.<br><br>
+<h1>🧠 Models Used</h1>
+<b>✅ ResNet50 </b>– Deep residual CNN for classification.<br>
 ResNet-50 consists of 50 layers that are divided into 5 blocks, each containing a set of residual blocks. The residual blocks allow for the preservation of information from earlier layers, which helps the network to learn better representations of the input data.
 <br>
 The following are the main components of ResNET.
-<br><br>
+<br>
 1. Convolutional Layers
 The first layer of the network is a convolutional layer that performs convolution on the input image. This is followed by a max-pooling layer that downsamples the output of the convolutional layer. The output of the max-pooling layer is then passed through a series of residual blocks.
 <br><br>
@@ -16,7 +16,7 @@ Each residual block consists of two convolutional layers, each followed by a bat
 <br><br>
 3. Fully Connected Layer
 The final layer of the network is a fully connected layer that takes the output of the last residual block and maps it to the output classes. The number of neurons in the fully connected layer is equal to the number of output classes.
-
+<br><br>
 <b>✅ EfficientNetB0</b> – Lightweight model optimized for performance.<br><br>
 EfficientNetB0 is the baseline model of the EfficientNet family, developed by Google. It balances model accuracy and efficiency using a novel technique called compound scaling, which scales depth, width, and resolution systematically.
 <br>
@@ -48,7 +48,6 @@ The Grad CAM method is a popular visualisation technique that is useful for unde
 In the event of a classification error, this method can be very useful for understanding where the problem lies in the convolutional network. It also makes the algorithm more transparent.
 <br><br>
 <h1>🗃️ Project Structure</h1><br>
-<br>
 ```
 Monitoring-Crop-Health-using-Computer-Vision/
 ├── data/               # Sample input images
@@ -68,7 +67,7 @@ Monitoring-Crop-Health-using-Computer-Vision/
 └── README.md
 ```
 <br>
-<h1>📦 Requirements</h1><br>
+<h1>📦 Requirements</h1>
 Python <br>
 
 TensorFlow <br>
@@ -85,7 +84,7 @@ scikit-learn<br>
 ```
 pip install -r requirements.txt<br>
 ```
-<h1>📁 Dataset</h1><br>
+<h1>📁 Dataset</h1>
 Used an augmented plant disease dataset from Kaggle. [Dataset link](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)<br>.<br>
 (Datasetis already splited into train,validation and test datasets)<br>
 
@@ -93,7 +92,7 @@ Images categorized as healthy or unhealthy(38 classes).<br>
 
 Dataset was resized(224,224), normalized.<br>
 
-<h1>🛠️ Model Training</h1><br>
+<h1>🛠️ Model Training</h1>
 Models were built using the Keras API in TensorFlow.<br>
 
 Both ResNet50 and EfficientNetB0 were trained on the dataset.<br>
