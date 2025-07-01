@@ -168,7 +168,7 @@ Output images show both original and heatmap overlays.<br>
 </table>
 <b>Accuracy and loss plots:</b><br>
 
-![](notebooks/ResNet50_training_metrics.jpg) <br>
+![](outputs/ResNet50_training_metrics.jpg) <br>
 
 <h1>🤝 Acknowledgements</h1>
 Dataset: Kaggle – New Plant Diseases Dataset (Augmented)<br>
